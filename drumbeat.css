@@ -1,0 +1,87 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    font-weight: bolder;
+    text-align: center;
+}
+.app{
+    width: 100vh;
+}
+.top{
+    margin: 40px auto;
+   
+}
+.top h1
+ {
+    color: #c72973;
+    font-size: 40px;
+}
+.top p{
+    color: #cccccc;
+    font-size: 20px;
+}
+.drum{
+    color: tomato;
+    font-size: 40px;
+    width: 100vh;
+}
+.beats{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.beats >div{
+    width: 100px;
+    height: 100px;
+    flex: 1;
+    box-shadow: 2px 2px 2px rgb(1, 19, 19),-2px -2px 2px teal;
+}
+.visual >div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 0%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%; 
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
+
+}
+#beat1{
+    background-color: aqua;
+}
+#beat2{
+    background-color: pink;
+}
+#beat3{
+    background-color:tomato ;
+}
+#beat4{
+    background-color: purple;
+}
+#beat5{
+    background-color: teal;
+}
+#beat6{
+    background-color: greenyellow;
+}
+
+
+
